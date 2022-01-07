@@ -1,0 +1,35 @@
+utils.hexToNumber('0x5edd0820')
+txn.hash
+txn.Hash
+(await web3.eth.getTransactionReceipt('0x547fd4f3e648937f95a04a67d4d522ac88e771e0092afcc1fc9bda6b09363037')).gasUsed
+await web3.eth.getTransactionReceipt('0x547fd4f3e648937f95a04a67d4d522ac88e771e0092afcc1fc9bda6b09363037')
+web3.eth.getTransactionReceipt('0x547fd4f3e648937f95a04a67d4d522ac88e771e0092afcc1fc9bda6b09363037')
+txn.gasPrice.toNumber()
+txn.gasPrice.toInt().toNumber()
+txn.gasPrice.toInt()
+txn.gasPrice
+txn.gas
+txn = await rps.connect(player).bet("R", { value: betValue });
+rps.addPool({ value: value_ });
+value_ = utils.toWei('10');
+txn = await rps.connect(player).bet("R", { value: betValue });
+rps = await this.RPSContract.deploy();
+txn = await rps.connect(player).bet("R", { value: betValue });
+let betValue = utils.toWei('1');
+player = await (await ethers.getSigners())[1];
+const utils = require('web3-utils');
+RPSContract = await ethers.getContractFactory('RPS');
+this.player
+tx = await rps.connect(this.player).bet("R", { value: betValue })
+betValue = utils.toWei('1');
+const utils = require('web3-utils');
+betValue = utils.toWei('1');
+tx = rps.connect(this.player).bet("R", { value: betValue })
+await web3.eth.getBalance(rps.address)
+web3.eth.getBalance(rps.address)
+rps.address
+rps = await this.RPSContract.deploy();
+RPSContract = await ethers.getContractFactory('RPS');
+await web3.eth.getBalance("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266")
+await (await ethers.getSigners())[0]
+await ethers.getSigners()
