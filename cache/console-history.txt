@@ -1,3 +1,294 @@
+txn = await rps.bet("S", { value: betValue, gasPrice: ethers.utils.parseUnits('10','gwei').toString()});
+txn = await rps.bet("P", { value: betValue, gasPrice: ethers.utils.parseUnits('10','gwei').toString()});
+txn = await rps.bet("R", { value: betValue, gasPrice: ethers.utils.parseUnits('10','gwei').toString()});
+let betValue = utils.toWei('0.05');
+await rps.addPool({ value: value_ });
+let value_ = utils.toWei('0.5');
+const utils = require('web3-utils');
+rps = await RPSContract.attach("0x96308c98D76007fDfE7088aDBB0a6Ee13847c5B7");
+RPSContract = await ethers.getContractFactory('RPS');
+await randomGenerator.requestRandomNumber();
+randomGenerator = await RandomGeneratorContract.attach("0x1165A8d6B1c7101D3435d73c552242B578A550EB");
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+await randomGenerator.requestRandomNumber();
+randomGenerator = await RandomGeneratorContract.attach("0x1165A8d6B1c7101D3435d73c552242B578A550EB");
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+txn = await rps.bet("R", { value: betValue, gasPrice: ethers.utils.parseUnits('10','gwei').toString()});
+let betValue = utils.toWei('0.05');
+await rps.addPool({ value: value_1 });
+let value_1 = utils.toWei('1');
+let value_ = utils.toWei('1');
+const utils = require('web3-utils');
+let value_ = utils.toWei('1');
+rps = await RPSContract.attach("0x9E56e43F08A615CEb113AA054c18000566f7B943");
+RPSContract = await ethers.getContractFactory('RPS');
+await randomGenerator.requestRandomNumber();
+await randomGenerator.primeNumberSet()
+randomGenerator = await RandomGeneratorContract.attach("0xE7679188d1eDB631De04D7Ba123045eFA1acF0B5");
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+await randomGenerator.getRandomNumber();
+await randomGenerator.setPrimeNumbers(BigInt("729716782280841690292116254021"),BigInt("815036628730537114468145564537"),BigInt("686679966517035228021798893831"));
+randomGenerator = await this.RandomGeneratorContract.deploy();
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+await randomGenerator.getRandomNumber();
+await randomGenerator.setPrimeNumbers(BigInt("729716782280841690292116254021"),BigInt("815036628730537114468145564537"),BigInt("686679966517035228021798893831"));
+randomGenerator = await this.RandomGeneratorContract.deploy();
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+randomGenerator = await this.RandomGeneratorContract.deploy();
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+randomGenerator = await this.RandomGeneratorContract.deploy();
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+randomGenerator = await this.RandomGeneratorContract.deploy();
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+await randomGenerator.getRandomNumber();
+await randomGenerator.setPrimeNumbers(BigInt("729716782280841690292116254021"),BigInt("815036628730537114468145564537"),BigInt("686679966517035228021798893831"));
+randomGenerator = await this.RandomGeneratorContract.deploy();
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+await randomGenerator.getRandomNumber();
+randomGenerator.getRandomNumber();
+await randomGenerator.setPrimeNumbers(BigInt("729716782280841690292116254021"),BigInt("815036628730537114468145564537"),BigInt("686679966517035228021798893831"));
+randomGenerator = await this.RandomGeneratorContract.deploy();
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+randomGenerator.getRandomNumber();
+await randomGenerator.setPrimeNumbers(BigInt("729716782280841690292116254021"),BigInt("815036628730537114468145564537"),BigInt("686679966517035228021798893831"));
+randomGenerator = await this.RandomGeneratorContract.deploy();
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+randomGenerator = await this.RandomGeneratorContract.deploy();
+randomGenerator.getRandomNumber();
+await randomGenerator.setPrimeNumbers(BigInt("729716782280841690292116254021"),BigInt("815036628730537114468145564537"),BigInt("686679966517035228021798893831"));
+randomGenerator.getRandomNumber();
+randomGenerator = await this.RandomGeneratorContract.deploy();
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+let uint256 a = 2
+int256 a = 2
+(rn * 1 + 30456464)
+(rn * 1 + 2)
+(rn * 1 + 2) & 3
+(rn * 1 + 2) & 2
+rn * 1 + 2
+rn * 1
+rn * 10
+rn
+rn * primeOne
+rn * primeOne + primeTwo
+rn * primeOne
+((rn * primeOne + primeTwo) % primeThree)
+((_randomness * primeOne + primeTwo) % primeThree)
+let primeThree = await randomGenerator.primeThree();
+let primeTwo = await randomGenerator.primeTwo();
+primeOne
+let primeOne = await randomGenerator.primeOne();
+rn
+let rn = await randomGenerator.RANDOM_NUMBER();
+await randomGenerator.getRandomNumber({gasLimit: 210000, gasPrice: ethers.utils.parseUnits('10','gwei').toString()});
+await randomGenerator.getRandomNumber({gasLimit: 21000, gasPrice: ethers.utils.parseUnits('10','gwei').toString()});
+await randomGenerator.RANDOM_NUMBER();
+await randomGenerator.primeNumberSet();
+await randomGenerator.setPrimeNumbers(BigInt("729716782280841690292116254021"),BigInt("815036628730537114468145564537"),BigInt("686679966517035228021798893831"));
+await randomGenerator.primeNumberSet();
+await randomGenerator.requestRandomNumber();
+randomGenerator = await RandomGeneratorContract.attach("0x2274672fF7Eae98b7cad270144AECb6c5d2998E4");
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');\
+await randomGenerator.getRandomNumber();
+await randomGenerator.primeNumberSet();
+await randomGenerator.setPrimeNumbers(BigInt("729716782280841690292116254021"),BigInt("815036628730537114468145564537"),BigInt("686679966517035228021798893831"));
+randomGenerator = await this.RandomGeneratorContract.deploy();
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+BigNumber { value: "729716782280841690292116254021" } * 13453416545646456
+await randomGenerator.primeThree();
+await randomGenerator.primeTwo();
+await randomGenerator.primeOne();
+randomGenerator = await RandomGeneratorContract.attach("0xf63d090E46cF3e62D61D87764faB2b0ab439B910");
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+await randomGenerator.getRandomNumber({gasLimit: 210000, gasPrice: ethers.utils.parseUnits('10','gwei').toString()});
+await randomGenerator.getRandomNumber({gasLimit: 21000, gasPrice: ethers.utils.parseUnits('10','gwei').toString()});
+await randomGenerator.getRandomNumber({gas: 100000, gasPrice: ethers.utils.parseUnits('10','gwei').toString()});
+await randomGenerator.getRandomNumber({gasPrice: ethers.utils.parseUnits('10','gwei').toString()});
+await randomGenerator.getRandomNumber();
+await randomGenerator.primeNumberSet();
+randomGenerator = await RandomGeneratorContract.attach("0xf63d090E46cF3e62D61D87764faB2b0ab439B910");
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+await randomGenerator.primeNumberSet();
+await randomGenerator.primeNumberSet);
+await randomGenerator.primeNumberSet)_;
+await randomGenerator.getRandomNumber();
+await randomGenerator.getRandomNumber({gasPrice: ethers.utils.parseUnits('10','gwei').toString()});
+await randomGenerator.getRandomNumber(gasPrice: ethers.utils.parseUnits('10','gwei').toString()});
+randomGenerator = await RandomGeneratorContract.attach("0xf63d090E46cF3e62D61D87764faB2b0ab439B910");
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+randomGenerator = await RandomGeneratorContract.attach("0xf63d090E46cF3e62D61D87764faB2b0ab439B910");
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+betValue
+await ethers.provider.getBalance("0x1170b47BA0c7e1bA0714035bFbC108f0382805Af");
+await provider.getBalance
+txn
+await rps.fomoPool()
+txn = await rps.bet("R", { value: betValue, gasPrice: ethers.utils.parseUnits('10','gwei').toString()});
+txn = await rps.bet("R", { value: betValue. gasPrice: ethers.utils.parseUnits('10','gwei').toString()});
+ethers.utils.parseUnits('10','gwei').toString()
+ethers.utils.parseUnits('6','gwei')
+txn = await rps.bet("R", { value: betValue });
+let betValue = utils.toWei('0.05');
+const utils = require('web3-utils');
+rps = await RPSContract.attach("0x1170b47BA0c7e1bA0714035bFbC108f0382805Af");
+RPSContract = await ethers.getContractFactory('RPS');
+txn = await rps.bet("R", { value: betValue });
+txn = await rps.connect(this.player).bet("R", { value: betValue });
+let betValue = utils.toWei('0.05');
+const utils = require('web3-utils');
+rps = await RPSContract.attach("0x1170b47BA0c7e1bA0714035bFbC108f0382805Af");
+RPSContract = await ethers.getContractFactory('RPS');
+let betValue = utils.toWei('0.05');
+rps = await RPSContract.attach("0x1170b47BA0c7e1bA0714035bFbC108f0382805Af");
+RPSContract = await ethers.getContractFactory('RPS');
+let betValue = utils.toWei('0.05');
+const utils = require('web3-utils');
+let betValue = utils.toWei('0.05');
+rps = await RPSContract.attach("0x1170b47BA0c7e1bA0714035bFbC108f0382805Af");
+RPSContract = await ethers.getContractFactory('RPS');
+txn = await rps.bet("R", { value: betValue });
+let betValue = utils.toWei('0.05');
+await rps.addPool({ value: value2 });
+let value2 = utils.toWei('1');
+await rps.addPool({ value: value1 });
+let value1 = utils.toWei('10');
+let value_ = utils.toWei('10');
+const utils = require('web3-utils');
+let value_ = utils.toWei('10');
+await rps.throwDice();
+rps = await RPSContract.attach("0x1170b47BA0c7e1bA0714035bFbC108f0382805Af");
+RPSContract = await ethers.getContractFactory('RPS');
+await randomGenerator.requestRandomNumber();
+randomGenerator = await RandomGeneratorContract.attach("0xf63d090E46cF3e62D61D87764faB2b0ab439B910");
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+await randomGenerator.requestRandomNumber();
+randomGenerator = await RandomGeneratorContract.attach("0xf63d090E46cF3e62D61D87764faB2b0ab439B910");
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+await rps.throwDice();
+await randomGenerator.setPrimeNumbers(BigInt("729716782280841690292116254021"),BigInt("815036628730537114468145564537"),BigInt("686679966517035228021798893831"));
+BigInt("729716782280841690292116254021")
+BigInt("23")
+BigInt("23)
+BigInt(23)
+await randomGenerator.setPrimeNumbers(729716782280841690292116254021,815036628730537114468145564537,686679966517035228021798893831);
+rps = await RPSContract.deploy(randomGenerator.address, 0, 0);
+RPSContract = await ethers.getContractFactory('RPS');
+randomGenerator = await RandomGeneratorContract.deploy();
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+await rps.throwDice();
+await randomGenerator.setPrimeNumbers(7,1);
+rps = await RPSContract.deploy(randomGenerator.address, 0, 0);
+RPSContract = await ethers.getContractFactory('RPS');
+randomGenerator = await RandomGeneratorContract.deploy();
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+await rps.throwDice();
+await randomGenerator.setPrimeNumbers(123,1);
+rps = await RPSContract.deploy(randomGenerator.address, 0, 0);
+randomGenerator = await RandomGeneratorContract.deploy();
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+RPSContract = await ethers.getContractFactory('RPS');
+await rps.throwDice();
+await randomGenerator.setPrimeNumbers(123,21111);
+randomGenerator.setPrimeNumbers(123,21111);
+rps = await RPSContract.deploy(randomGenerator.address, 0, 0);
+RPSContract = await ethers.getContractFactory('RPS');
+randomGenerator = await RandomGeneratorContract.deploy();
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+await rps.throwDice();
+rps = await RPSContract.deploy(randomGenerator.address, 0, 0);
+RPSContract = await ethers.getContractFactory('RPS');
+randomGenerator = await RandomGeneratorContract.deploy();
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+await rps.throwDice();
+rps = await RPSContract.deploy(randomGenerator.address, 0, 0);
+RPSContract = await ethers.getContractFactory('RPS');
+randomGenerator = await RandomGeneratorContract.deploy();
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+await rps.throwDice();
+await rps.throwDice()
+rps = await RPSContract.deploy(randomGenerator.address, 0, 0);
+RPSContract = await ethers.getContractFactory('RPS');
+randomGenerator = await RandomGeneratorContract.deploy();
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+await rps.throwDice()
+rps.throwDice
+rps = await RPSContract.deploy(randomGenerator.address, 0, 0);
+RPSContract = await ethers.getContractFactory('RPS');
+randomGenerator = await RandomGeneratorContract.deploy();
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+rps = await RPSContract.deploy(randomGenerator.address, 0, 0);
+RPSContract = await ethers.getContractFactory('RPS');
+await randomGenerator.getRandomNumber();
+randomGenerator = await RandomGeneratorContract.deploy();
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+await randomGenerator.getRandomNumber();
+await randomGenerator.getRandomNumber()
+await randomGenerator.setPrimeNumbers(123,123);
+await randomGenerator.deploy(123,123);
+randomGenerator = await RandomGeneratorContract.deploy();
+RandomGeneratorContract.attach(0x5FbDB2315678afecb367f032d93F642f64180aa3)
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+1%3
+3%3
+val%3
+val
+let val = await randomGenerator.randomResult();
+await randomGenerator.randomResult()
+await randomGenerator.getRandomNumber()
+await randomGenerator.randomResult()
+await randomGenerator.getRandomNumber()
+await randomGenerator.randomResult()
+await randomGenerator.randomResult
+await randomGenerator.getRandomNumber()
+await randomGenerator.randomResult()
+randomGenerator.randomResult()
+randomGenerator.randomResult
+await randomGenerator.randomResult
+randomGenerator = await RandomGeneratorContract.attach("0xE5c8F66EB904807F34585999D321347e8769477D");
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+;
+await web3.eth.getBalance("0x6Aec5b0b98A4348B2Baa9Cc94fb194Cd1f7eC1b7")
+parseFloat( ethers.utils.formatEther('50000000000000000'))
+parseFlaot( ethers.utils.formatEther('50000000000000000'))
+ ethers.utils.formatEther('50000000000000000')
+ ethers.utils.formatEther(50000000000000000)
+ ethers.utils.formatEther(50000000000000000))
+'a' == 'a'
+ethers.utils.formatEther(23)
+Math.abs(23)
+abs(2)
+parseFloat(ethers.utils.formatEther('999999999997640700'))
+parseInt(ethers.utils.formatEther('999999999997640700'))
+ethers.utils.formatEther('999999999997640700')
+ethers.utils.formatEther('10')
+ethers.utils.formatEther(10)
+num1.toString()
+let num1 = 999999999997640700;
+let num = 999999999997640700;
+999999999997640700
+num.toString()
+let num = 15;
+1.toString()
+parseInt(2)
+str(23)
+ethers.utils.formatEther(utils.toUtf8(utils.toHex(2)))
+ethers.utils.fromEther(utils.toUtf8(utils.toHex(2)))
+ethers.utills.fromEther(utils.toUtf8(utils.toHex(2)))
+utils.toUtf8(utils.toHex(2))
+utils.toAscii(utils.toHex(2))
+utils.toHex(2)
+utils.toAscii(2)
+const utils = require('web3-utils');
+utils.toAscii(2)
+rps.address
+rps
+await rps.randomGenerator
+rps.randomGenerator
+rps.randomGenerator.generateRandomNumber()
+rps.randomGenerator
+rps = await RPSContract.deploy();
+RPSContract = await ethers.getContractFactory('RPS');
 utils.hexToNumber('0x5edd0820')
 txn.hash
 txn.Hash

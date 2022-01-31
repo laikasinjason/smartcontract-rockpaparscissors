@@ -1,0 +1,35 @@
+--- random prime number
+729716782280841690292116254021
+815036628730537114468145564537
+686679966517035228021798893831
+
+await randomGenerator.setPrimeNumbers(BigInt("729716782280841690292116254021"),BigInt("815036628730537114468145564537"),BigInt("686679966517035228021798893831"));
+
+randomGenerator = await this.RandomGeneratorContract.deploy();
+
+
+randomGenerator 0x1165A8d6B1c7101D3435d73c552242B578A550EB
+rps 0x96308c98D76007fDfE7088aDBB0a6Ee13847c5B7
+
+RandomGeneratorContract = await ethers.getContractFactory('RandomGenerator');
+randomGenerator = await RandomGeneratorContract.attach("0x1165A8d6B1c7101D3435d73c552242B578A550EB");
+await randomGenerator.requestRandomNumber();
+
+RPSContract = await ethers.getContractFactory('RPS');
+rps = await RPSContract.attach("0x96308c98D76007fDfE7088aDBB0a6Ee13847c5B7");
+
+const utils = require('web3-utils');
+let value_ = utils.toWei('1');
+await rps.addPool({ value: value_ });
+
+let betValue = utils.toWei('0.05');
+txn = await rps.bet("R", { value: betValue, gasPrice: ethers.utils.parseUnits('10','gwei').toString()});
+
+
+await randomGenerator.getRandomNumber({gasLimit: 210000, gasPrice: ethers.utils.parseUnits('10','gwei').toString()});
+
+
+
+
+2nd rg 0x2274672fF7Eae98b7cad270144AECb6c5d2998E4
+randomGenerator = await RandomGeneratorContract.attach("0x2274672fF7Eae98b7cad270144AECb6c5d2998E4");
